@@ -1,0 +1,20 @@
+{
+    "name": "tinypan/jwt",
+    "description": "jwt fro tinypan",
+    "type": "library",
+    "require": {
+        "php": ">=7.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tinypan\\Jwt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "panxu",
+            "email": "panxu71@163.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
