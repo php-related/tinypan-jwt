@@ -1,0 +1,20 @@
+{
+    "name": "tinypan/oauth",
+    "description": "oauth test",
+    "type": "library",
+    "require": {
+        "php": ">=7.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tinypan\\Oauth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tinypan",
+            "email": "panxu71@163.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
