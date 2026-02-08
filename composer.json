@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tinypan\\Jwt\\": "src/"
+            "tinypan\\jwt\\": "src/"
         }
     },
     "authors": [
@@ -16,5 +16,13 @@
             "email": "panxu71@163.com"
         }
     ],
+    "scripts": {
+         "post-install-cmd": [
+            "tinypan\\jwt\\Install::install"
+        ],
+        "post-update-cmd": [
+            "tinypan\\jwt\\Install::install"
+        ]
+    },
     "minimum-stability": "dev"
 }
